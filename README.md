@@ -27,7 +27,7 @@ bool btw(struct date d1,struct date d2,struct date p){
     return true;
 }
 
-void ans(int al[][2],int n){
+void ans(struct date al[][2],int n){
     int i=0;
     for(;i<n;i++){
         if(!btw(al[i][0],al[i][1],al[n][0])&&!btw(al[i][0],al[i][1],al[n][1])) continue;
