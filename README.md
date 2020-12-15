@@ -22,7 +22,6 @@ struct date{
 };
 
 int btw(struct date d1,struct date d2,struct date p){
-    bool k,l;
     if(d1.year>p.year) return 1;
     if(d2.year<p.year) return 2;
     if(d1.year==p.year){
