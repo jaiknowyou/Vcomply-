@@ -42,7 +42,7 @@ int main() {
 	cin>>n;
 	string A;
 	struct date al[n+1][2];
-	for(int i=0;i<=n;i++){
+	for(int i=0;i<=n;i++){ 			//al[n] is request leave while al[0]-al[n-1] are approved leave.
 	    getline(cin,A);
 	    stringstream S(A);
 	    string B;
