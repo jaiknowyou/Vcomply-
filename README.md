@@ -1,6 +1,16 @@
 /*
 # Vcomply-
 test in C++
+
+INPUT FORMAT:-
+5
+{emp_id: 1, leaveFrom: 14-12-2020, leaveUpto: 18-12-2020},
+{emp_id: 3, leaveFrom: 22-12-2020, leaveUpto: 24-12-2020},
+{emp_id: 7, leaveFrom: 27-12-2020, leaveUpto: 30-12-2020},
+{emp_id: 29, leaveFrom: 02-12-2020, leaveUpto: 10-12-2020},
+{emp_id: 45, leaveFrom: 24-02-2021, leaveUpto: 17-03-2021}
+{leaveFrom: 13-12-2020, leaveUpto: 20-12-2020}
+
 */
 //al is approved leave and rl is requested leave.
 
