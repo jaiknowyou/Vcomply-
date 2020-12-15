@@ -15,13 +15,13 @@ bool btw(struct date d1,struct date d2,struct date p){
     else if(d1.year==p.year){
         if(d1.month>p.month) return false;
         else if(d1.month==p.month){
-            if(d1.day>=p.day) return false;
+            if(d1.day>p.day) return false;
         }
     }
     if(d2.year==p.year){
         if(d2.month<p.month) return false;
-        else if(d1.month==p.month){
-            if(d1.day<=p.day) return false;
+        else if(d2.month==p.month){
+            if(d2.day<p.day) return false;
         }
     }
     return true;
