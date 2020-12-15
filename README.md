@@ -51,12 +51,12 @@ int main() {
 	        count++;
 	        if(count==4){
 	            al[i][0].day=stoi(B.substr(0,2));
-	            al[i][0].month(B.substr(3,2));
+	            al[i][0].month=stoi(B.substr(3,2));
 	            al[i][0].year=stoi(B.substr(6,4));
 	        }
 	        else if(count==6){
 	            al[i][1].day=stoi(B.substr(0,2));
-	            al[i][1].month(B.substr(3,2));
+	            al[i][1].month=stoi(B.substr(3,2));
 	            al[i][1].year=stoi(B.substr(6,4));
 	        }
 	    }
